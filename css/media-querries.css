@@ -1,0 +1,81 @@
+@media (max-width:980px) {
+    header nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .main-container .main-container_titulo h1 {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+    .main-container .main-container_titulo h2 {
+        font-size: 2.5rem;
+    }
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    .blogs-news-img-container {
+        grid-row:2;
+    }
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-post-container .post-container {
+        max-width: 45%;
+    }
+    .grid-personal-container{
+        max-width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr;
+    }
+    .perfil-container .grid-proyects-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    
+    }
+    .perfil-container .grid-proyects-container article {
+        border-top: 1px solid var(--color-3);
+        border-bottom: 1px solid var(--color-3);
+        border-right: 2px solid var(--color-claro);
+        border-left: 2px solid var(--color-claro);
+    }
+    .grid-personal-container div {
+        margin: auto;
+    }
+}
+@media (max-width: 600px) {
+    .blogs-post-container .post-container {
+        max-width: 95%;
+    }
+    .main-container .main-container_titulo h1 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .main-container .main-container_titulo h2 {
+        font-size: 1.5rem;
+    }
+    header .header-icons-container .icons {
+        width: 320px;
+    }
+    .grid-personal-container{
+        max-width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 3fr;
+    }
+    .grid-personal-container img {
+        margin-top: 25px;
+    }
+    .contact-grid-containter {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contact-grid-containter img {
+        width: 15%;
+    }
+    .grid-container article {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
