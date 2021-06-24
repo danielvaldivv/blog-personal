@@ -78,4 +78,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    .blogpost-main-container {
+        padding: 0 20px;
+    }
 }
